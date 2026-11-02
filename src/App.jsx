@@ -5,6 +5,7 @@ import Player from "./components/Player.jsx";
 import Discover from "./pages/Discover.jsx";
 import AlbumDetail from "./pages/AlbumDetails.jsx";
 import Collection from "./pages/Collection.jsx";
+import AiPicks from "./pages/AiPicks.jsx";
 
 export default function App() {
   const [page, setPage] = useState("discover");
@@ -32,6 +33,7 @@ export default function App() {
         {page === "collection" && (
           <Collection openAlbum={openAlbum} />
         )}
+        {page === "ai" && <AiPicks openAlbum={openAlbum} />}
       </main>
       <Player />
     </>

@@ -20,6 +20,7 @@ export default function Navbar({ page, setPage }) {
       <nav>
         {tab("discover", "Discover")}
         {tab("collection", `My collection (${count})`)}
+        {tab("ai", "Recommendations")}
       </nav>
     </header>
   );
