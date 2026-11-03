@@ -70,4 +70,7 @@ This project is not affiliated with or officially endorsed by Apple, Spotify, De
 
 ![Album Details](screenshots/album-details.png)
 
-![AI Recommendations](screenshots/ai-recommendations.png)a
+![AI Recommendations](screenshots/ai-recommendations.png)
+
+## para sa Live Website
+https://album-tracker-puce.vercel.app/ 
