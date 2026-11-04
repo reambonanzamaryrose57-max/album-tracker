@@ -74,3 +74,15 @@ This project is not affiliated with or officially endorsed by Apple, Spotify, De
 
 ## para sa Live Website
 https://album-tracker-puce.vercel.app/ 
+
+
+## Reflection Question'
+1.Ginagamit ang useRef dahil nagbibigay ito ng direktang access sa audio element nang then hindi nag dudulot ng hindi kaylangang pag re-render ng components,
+
+2.Para mas organisado ang code at mas madaling i-maintain ang application
+
+3.Dahil pwedeng makita at makopya ito ng ibang tao, lalo na kapag na-upload sa GitHub
+
+4.Dahil gumagamit ito ng Gemini para gumawa ng recommendations. Ang advantage nito ay mabilis gumawa ng suggestions, pero maaaring hindi palaging accurate ang results
+
+5.Nahirapan akong paganahin ang AI recommendations. Naayos ko ito sa pamamagitan ng pag-check sa API key at pag-restart ng development server
